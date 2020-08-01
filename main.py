@@ -9,6 +9,6 @@ def RuntimeMeter(function):
         start = time.time()
         function()
         end = time.time()
-        print(f'[*] Execution time: {start - end}")
+        print("[*] Execution time: {0}".format(end - start) + "s")
 
     return wrapper
