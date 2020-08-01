@@ -10,5 +10,7 @@ def WebpageSpeedTest():
     import requests
     webpage = requests.get("https://google.com")
 
-fetch_webpage()
+WebpageSpeedTest()
+
+# [*] Execution time: 0.6096024513244629s
 ```
