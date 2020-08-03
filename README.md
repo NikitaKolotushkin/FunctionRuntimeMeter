@@ -17,5 +17,5 @@ def WebpageSpeedTest():
 
 WebpageSpeedTest()
 
-# [*] Execution time: 0.6096024513244629s
+# [*] Execution time: 0:00:00.653771
 ```
