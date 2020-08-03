@@ -3,12 +3,11 @@
 
 
 def RuntimeMeter(function):
-    import time
+    from datetime import datetime
 
     def wrapper():
-        start = time.time()
+        start = datetime.now()
         function()
-        end = time.time()
-        print("[*] Execution time: {0}".format(end - start) + "s")
+        print("[*] Execution time: {0}".format(datetime.now() - start))
 
     return wrapper
