@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 
@@ -9,5 +9,5 @@ def RuntimeMeter(function):
         start = datetime.now()
         function()
         print(f"[*] Execution time: {datetime.now() - start}")
-    
+
     return wrapper
