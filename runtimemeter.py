@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-def RuntimeMeter(function):
+def RuntimeMeter(function) -> str:
     from datetime import datetime
 
     def wrapper():
