@@ -8,6 +8,6 @@ def RuntimeMeter(function):
     def wrapper():
         start = datetime.now()
         function()
-        print("[*] Execution time: {0}".format(datetime.now() - start))
+        print(f"[*] Execution time: {datetime.now() - start}")
     
     return wrapper
